@@ -12,4 +12,4 @@ API para delivery de refeições criada em Elixir/Phoenix:
 
 ![API](https://user-images.githubusercontent.com/57791712/113480143-4f6db980-9469-11eb-8ad2-aaff58090b78.gif)
 
-- Aula do Bootcamp Ignite da @Rocketseat
+- Aula Bootcamp Ignite da @Rocketseat
