@@ -37,4 +37,10 @@ defmodule RockeliveryWeb.UsersController do
       |> render("user.json", user: user)
     end
   end
+
+  def index(conn, _params) do
+    conn
+    |> put_status(:ok)
+    |> text("Rockelivery API - Use you prefered REST Client do send requests")
+  end
 end
