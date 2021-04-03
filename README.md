@@ -1,19 +1,15 @@
-# Rockelivery
+## RocketSeat - Ignite
 
-To start your Phoenix server:
+API para delivery de refeições criada em Elixir/Phoenix:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+- CRUD do Cadastro de Usuários:
+## **Endpoints**
+`Users`
+-   `GET` [http://localhost:4000/api/users/:id](http://localhost:4000/api/users/:id)
+-   `POST` [http://localhost:4000/api/users](http://localhost:4000/api/users)
+-   `PUT`[http://localhost:4000/api/users/:id](http://localhost:4000/api/users/:id)
+-   `DELETE` [http://localhost:4000/api/users/:id](http://localhost:4000/api/users/:id)
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+![API](https://user-images.githubusercontent.com/57791712/113480143-4f6db980-9469-11eb-8ad2-aaff58090b78.gif)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Aula do Bootcamp Ignite da @Rocketseat
