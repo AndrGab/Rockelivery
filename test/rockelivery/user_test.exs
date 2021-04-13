@@ -18,7 +18,7 @@ defmodule Rockelivery.UserTest do
     test "when updating a changeset, returns a valid changeset with the given changes" do
       params = build(:user_params)
 
-      update_params = %{name: "Rafael"}
+      update_params = %{"name" => "Rafael"}
 
       response =
         params
@@ -29,7 +29,7 @@ defmodule Rockelivery.UserTest do
     end
 
     test "when there are some error, returns an invalid changeset" do
-      params = build(:user_params, %{age: 15, password: "123"})
+      params = build(:user_params, %{"age" => 15, "password" => "123"})
 
       response = User.changeset(params)
 
