@@ -14,7 +14,8 @@ defmodule Rockelivery.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Rockelivery.PubSub},
       # Start the Endpoint (http/https)
-      RockeliveryWeb.Endpoint
+      RockeliveryWeb.Endpoint,
+      Rockelivery.Orders.ReportRunner
       # Start a worker by calling: Rockelivery.Worker.start_link(arg)
       # {Rockelivery.Worker, arg}
     ]
