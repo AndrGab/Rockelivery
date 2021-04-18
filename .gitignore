@@ -28,4 +28,4 @@ rockelivery-*.tar
 /priv/static/
 
 .elixir_ls
-/config
+
